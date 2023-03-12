@@ -1,41 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hosein Ghasemizade</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>HoseinGhasemizade</title>
 </head>
 <body>
-<div id="card">
-    <h1>Go<b><img src="./avatar/avatar_ghasemizade.jpg" alt=""></b><b>g</b><b>l</b>e</h1>
-    <div class="content">
-      <span class="text">
-      <h2>Hosein Ghasemizade<span>&nbsp;</span></h2>
-      </span>
-      <ul>
-        <li>
-          <span class="cname"><a href="http://ghasemizade.com">Did you mean? <b>Frontend Developer</b></a></span>
-          <span class="social">
-              <a href="https://github.com/ghasemizade"><i class="fa fa-github" style="font-size:36px"></i></a>
-              <a href="https://t.me/Hosein_ghasemizade"><i class="fa fa-telegram" style="font-size: 36px;"></i></a>
-              <a href="https://www.linkedin.com/in/hosein-ghasemizade/"><i class="fa fa-linkedin" style="font-size: 36px;"></i></a>
-              <a href=""><i class="fa fa-twitter" style="font-size: 36px;"></i></a>
-              <a href=""><i class="fa fa-instagram" style="font-size: 36px;"></i></a>
-              <a href=""><i class="fa fa-facebook" style="font-size: 36px;"></i></a>
-          </span>
-          <span></span>
-          <div class="reach">
-            <div class="email">Email: ghasemizade.hosein@gmail.com</div>
-            <div class="phone">Mobile: +989112907140</div>
-          </div>
-        </li>
-      </ul>
+  <div class="container">
+    <div class="card">
+      <div class="content">
+        <img src="./avatar/avatar_ghasemizade.jpg" alt="Hosein's avatar">
+        <h2>dev</h2>
+        <h3>Hosein Ghasemizade</h3>
+        <p>
+          frontend developer
+        </p>
+        <a href="#">Read More</a>
+      </div>
     </div>
-  
   </div>
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelector(".card"), {
+		max: 25,
+		speed: 400
+	});
+  </script>
 </body>
 </html>
