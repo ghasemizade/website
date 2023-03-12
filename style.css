@@ -1,0 +1,205 @@
+img{
+    width: 70px;
+    border-radius: 50%;
+}
+.cname{
+    padding-bottom: 25px;
+}
+.email{
+    padding: 7px;
+}
+.phone{
+    padding: 7px;
+}
+.social{
+    padding-bottom: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.social a i{
+    color: black;
+    transition: .2s;
+}
+.social .fa-linkedin:hover{
+    color: rgb(12, 97, 191);
+}
+.social .fa-telegram:hover{
+    color: rgb(39, 163, 226);
+}
+.social .fa-instagram:hover{
+    color: rgb(247, 7, 116);
+}
+.social .fa-twitter:hover{
+    color: rgb(28, 150, 232);
+}
+.social .fa-github:hover{
+    color: rgb(36, 25, 66);
+}
+.social .fa-facebook:hover{
+    color: rgb(23, 115, 234);
+}
+body {
+    font-family: Georgia;
+    background-color: #eee;
+}
+  
+#card {
+    border-radius: 3px;
+    background: #fff;
+    width: 600px;
+    height: 300px;
+    margin: 3% auto;
+    padding: 20px 30px;
+    border: 1px solid white;
+    transition: .3s;
+    text-align: center; 
+    border: 1px solid #ccc;
+}
+#card:hover{
+    box-shadow: rgba(78, 78, 78, 0.25) 0px 50px 100px -20px, rgba(20, 20, 20, 0.3) 0px 30px 60px -30px;
+    cursor: pointer;
+}
+    #card h1 {
+      color: #dc152c;
+      font-weight: normal;
+      font-size: 48px;
+      margin: 0 0 10px 0; }
+      #card h1::first-letter {
+        color: #194ff7; }
+      #card h1 b {
+        color: #f1840b;
+        font-weight: normal; }
+      #card h1 b + b {
+        color: #194ff7; }
+      #card h1 b + b + b {
+        color: #00940e; }
+  
+  .content {
+    text-align: left;
+    /* Pure CSS3 typing animation with steps() :
+       http://lea.verou.me/2011/09/pure-css3-typing-animation-with-steps/ */ }
+    .content ul {
+      padding: 0;
+      margin: 0;
+      font: 16px Arial; }
+      .content ul li {
+        list-style: none; }
+        .content ul li a {
+          color: #12C; }
+        .content ul li span {
+          display: block;
+          width: 100%;
+          margin-bottom: 2px; }
+          .content ul li span:nth-child(2) {
+            margin-bottom: 10px; }
+            .content ul li span:nth-child(2) a {
+              color: #093;
+              text-decoration: none; }
+          .content ul li span:nth-child(3), .content ul li span:nth-child(4) {
+            font-size: 14px; }
+    .content .text {
+      border: 1px solid #7ec6fd;
+      float: left;
+      width: 100%;
+      margin-bottom: 10px; }
+      .content .text h2 {
+        position: relative;
+        float: left;
+        font-size: 100%;
+        font-weight: normal;
+        padding: 0;
+        margin: 5px 10px; }
+        .content .text h2 span {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 0;
+          background: white;
+          /* same as background */
+          border-left: 0.1em solid black;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          -webkit-animation: typing 1s steps(20, end), blink-caret 1s step-end infinite;
+          -moz-animation: typing 1s steps(20, end), blink-caret 1s step-end infinite; }
+  
+  /* Animate CSS : https://daneden.me/animate/ */
+  .animated {
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -khtml-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.4s;
+    -o-animation-duration: 0.4s;
+    -moz-animation-duration: 0.4s;
+    -khtml-animation-duration: 0.4s;
+    -ms-animation-duration: 0.4s;
+    animation-duration: 0.4s; }
+  
+  .fadeIn {
+    -webkit-animation-name: fadeIn;
+    -o-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+    -khtml-animation-name: fadeIn;
+    -ms-animation-name: fadeIn;
+    animation-name: fadeIn; }
+  
+  /* Typing keyframes */
+  @-webkit-keyframes typing {
+    0% {
+      width: 100%; }
+  
+    100% {
+      width: 0; } }
+  
+  @-moz-keyframes typing {
+    0% {
+      width: 100%; }
+  
+    100% {
+      width: 0; } }
+  
+  @-o-keyframes typing {
+    0% {
+      width: 100%; }
+  
+    100% {
+      width: 0; } }
+  
+  @keyframes typing {
+    0% {
+      width: 100%; }
+  
+    100% {
+      width: 0; } }
+  
+  /* FadeIn keyframes */
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0; }
+  
+    100% {
+      opacity: 1; } }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0; }
+  
+    100% {
+      opacity: 1; } }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0; }
+  
+    100% {
+      opacity: 1; } }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; }
+  
+    100% {
+      opacity: 1; } }      
