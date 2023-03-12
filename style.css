@@ -13,13 +13,13 @@ img{
 }
 .social{
     padding-bottom: 25px;
-    display: grid;
-    align-items: center;
-    justify-content: center;
+    
 }
 .social a i{
     color: black;
     transition: .2s;
+    padding: 15px;
+    
 }
 .social .fa-linkedin:hover{
     color: rgb(12, 97, 191);
@@ -48,7 +48,7 @@ body {
     border-radius: 3px;
     background: #fff;
     width: 600px;
-    height: 500px;
+    height: 350px;
     margin: 3% auto;
     padding: 20px 30px;
     border: 1px solid white;
@@ -56,10 +56,10 @@ body {
     text-align: center; 
     border: 1px solid #ccc;
 }
-#card:hover{
+/* #card:hover{
     box-shadow: rgba(78, 78, 78, 0.25) 0px 50px 100px -20px, rgba(20, 20, 20, 0.3) 0px 30px 60px -30px;
-    cursor: pointer;
-}
+    
+} */
     #card h1 {
       color: #dc152c;
       font-weight: normal;
