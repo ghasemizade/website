@@ -19,7 +19,6 @@ img{
     color: black;
     transition: .2s;
     padding: 15px;
-    
 }
 .social .fa-linkedin:hover{
     color: rgb(12, 97, 191);
@@ -56,10 +55,10 @@ body {
     text-align: center; 
     border: 1px solid #ccc;
 }
-/* #card:hover{
+#card:hover{
     box-shadow: rgba(78, 78, 78, 0.25) 0px 50px 100px -20px, rgba(20, 20, 20, 0.3) 0px 30px 60px -30px;
     
-} */
+}
     #card h1 {
       color: #dc152c;
       font-weight: normal;
