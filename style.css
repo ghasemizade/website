@@ -40,19 +40,21 @@
       z-index: 1;
     }
     .container .card{
-      /* position: relative; */
-      width: 450px;
-      height: 500px;
+      background-color: #fff;
+      width: 600px;
+      height: auto;
       margin: 30px;
-      border-radius: 15px;
+      border-radius: 10rem;
       display: flex;
       justify-content: center;
       align-items: center;
       backdrop-filter: blur(5px);
     }
     .container .card .content{
+      width: 600px;
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
+      align-items: center;
       padding: 20px;
       text-align: center;
       transition: .5s;
