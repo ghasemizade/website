@@ -93,3 +93,8 @@
     .container .card .content a .icon{
         width: 50px;
     }
+    .icon{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
