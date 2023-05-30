@@ -64,6 +64,10 @@
     .container .card .content .avatar{
       width: 250px;
       border-radius: 50%;
+      transition: .2s ease-in;
+    }
+    .container .card .content .avatar:hover{
+      transform: scale(1.165);
     }
     .container .card .content h2{
       position: absolute;
@@ -106,6 +110,6 @@
         background-color: transparent;
         transition: .2s;
     }
-    .icon a:hover {
-        transform: scale(1.3);
-    }
+    /* .icon a:hover {
+        transform: scale(1.01);
+    } */
