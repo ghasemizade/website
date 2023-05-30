@@ -9,6 +9,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: row;
       min-height: 80vh;
       background-color: #16162357;
     }
@@ -31,7 +32,6 @@
       clip-path: circle(20% at 10% 10%);
     }
     .container{
-      position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -41,7 +41,7 @@
     }
     .container .card{
       /* position: relative; */
-      width: 350px;
+      width: 450px;
       height: 500px;
       margin: 30px;
       border-radius: 15px;
@@ -51,6 +51,8 @@
       backdrop-filter: blur(5px);
     }
     .container .card .content{
+      display: flex;
+      justify-content: center;
       padding: 20px;
       text-align: center;
       transition: .5s;
@@ -88,7 +90,6 @@
       /* border-radius: 5rem; */
       text-decoration: none;
       font-weight: 500;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, rgba(0, 0, 0, .5));
     }
     .container .card .content a .icon{
         width: 50px;
@@ -97,4 +98,11 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+    }
+    .icon a{
+        background-color: transparent;
+        transition: .2s;
+    }
+    .icon a:hover {
+        transform: scale(1.3);
     }
