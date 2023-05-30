@@ -10,8 +10,8 @@
       justify-content: center;
       align-items: center;
       flex-direction: row;
-      min-height: 80vh;
-      background-color: #16162357;
+      min-height: 100vh;
+      background-color: #fff;
     }
     body::before{
       content: '';
@@ -39,7 +39,7 @@
     }
     .container .card{
       background-color: #fff;
-      width: 700px;
+      width: 750px;
       height: auto;
       margin: 30px;
       border-radius: 10rem;
@@ -47,6 +47,7 @@
       justify-content: center;
       align-items: center;
       backdrop-filter: blur(5px);
+      box-shadow: -7px 18px 38px 14px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
     }
     .container .card .content{
       width: inherit;
@@ -57,8 +58,11 @@
       text-align: center;
       transition: .5s;
     }
+    .card-content{
+        margin: 0 4rem;
+    }
     .container .card .content .avatar{
-      width: 180px;
+      width: 250px;
       border-radius: 50%;
     }
     .container .card .content h2{
