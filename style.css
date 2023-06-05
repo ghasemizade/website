@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
     @media screen and (max-width: 800px){
+      .container .card{
+        width: 100px;
+      }
       .content{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: auto;
       }
     }
     *{
@@ -21,24 +23,6 @@
       flex-direction: row;
       min-height: 100vh;
       background-color: #fff;
-    }
-    body::before{
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    body::after{
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      /* background: linear-gradient(#2196f3, #e91e63); */
-      clip-path: circle(20% at 10% 10%);
     }
     .container{
       display: flex;
