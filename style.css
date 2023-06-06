@@ -1,36 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-    @media screen and (max-width: 800px){
-
-      .content{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-      }
-    }
     *{
       margin: 0;
       padding: 0;
       box-sizing: border-box;
       font-family: 'Poppins', sans-serif;
     }
-    body{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: row;
-      min-height: 100vh;
-      background-color: #fff;
-    }
     .container{
       display: flex;
       justify-content: center;
       align-items: center;
+      min-height: 100vh;
     }
     .container .card{
       background-color: #fff;
-      width: 750px;
-      height: auto;
+      width: 700px;
       margin: 30px;
       border-radius: 10rem;
       display: flex;
@@ -98,4 +81,16 @@
     .icon a{
         background-color: transparent;
         transition: .2s;
+    }
+    @media screen and (max-width: 800px){
+      .content{
+        flex-direction: column;
+      }
+      .container .card{
+        border-radius: 3rem;
+        text-align: center;
+      }
+      .container .card .content .avatar{
+        border-radius: 3rem;
+      }
     }
