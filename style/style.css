@@ -6,7 +6,7 @@
       font-family: 'Poppins', sans-serif;
     }
     body{
-      background-color: #eee;
+      background-color: #fff;
     }
     .container{
       display: flex;
@@ -15,6 +15,7 @@
       min-height: 100vh;
     }
     .container .card{
+      z-index: 2;
       background-color: #fff;
       width: 700px;
       margin: 30px;
@@ -29,29 +30,16 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      flex-direction: row;
       padding: 20px;
       text-align: center;
-      /* transition: .5s; */
     }
     .card-content{
       margin: 0 4rem;
-      transition: 1s;
-    }
-    .card-content.active{
-      transform: translateX(-250px);
     }
     .container .card .content .avatar{
       width: 250px;
       border-radius: 50%;
-      transition: .2s ease-in;
-      cursor: pointer;
-      /* animation-name: LtrToRtl;
-      animation-duration: 4s; */
-      transition: 1s;
-    }
-    .container .card .content .avatar.active{
-      transform: translateX(405px);
+      transition: .3s ease-in;
     }
     .container .card .content h2{
       position: absolute;
@@ -102,7 +90,65 @@
         text-align: center;
       }
       .container .card .content .avatar{
-        border-radius: 3rem;
+        border-radius: 2rem;
       }
     }
+    .bouncing-blob {
+      width: 32vw;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      will-change: transform;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      transform-origin: left top;
+    }
     
+    .bouncing-blob--blue {
+      background: #4783c7;
+    }
+    
+    .bouncing-blob--white {
+      background: #ffffff;
+      z-index: 2;
+      width: 15vw;
+    }
+    
+    .bouncing-blob--purple {
+      background: #8c8ff1;
+    }
+    
+    .bouncing-blob--pink {
+      background: #e289cd50;
+    }
+    
+    .bouncing-blobs-container {
+      position: fixed;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .bouncing-blobs-glass {
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      backdrop-filter: blur(140px);
+      -webkit-backdrop-filter: blur(140px);
+      pointer-events: none;
+    }
+    
+    .bouncing-blobs {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
