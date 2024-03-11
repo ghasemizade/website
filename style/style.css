@@ -152,3 +152,15 @@
       width: 100%;
       height: 100%;
     }
+    @media (max-width: 500px) {
+      .bouncing-blob {
+        width: 60vw;
+      }
+      .bouncing-blob--white {
+        width: 30vw;
+      }
+      .bouncing-blobs-glass {
+        backdrop-filter: blur(90px);
+        -webkit-backdrop-filter: blur(90px);
+      }
+    }
