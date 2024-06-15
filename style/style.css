@@ -23,7 +23,7 @@
     }
     .container .card{
       z-index: 2;
-      background: inherit;
+      background: #ffffff23;
       width: 700px;
       margin: 30px;
       border-radius: 10rem;
