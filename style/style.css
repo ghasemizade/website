@@ -171,3 +171,13 @@
         -webkit-backdrop-filter: blur(90px);
       }
     }
+
+    .athor {
+      position: absolute;
+      bottom: 0;
+      right: 10px;
+    }
+    .athor a {
+      color: #000;
+      text-decoration: none;
+    }
