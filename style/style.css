@@ -16,9 +16,28 @@
       min-height: 100vh;
     }
     
+    .container .social {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      margin: 0 30px;
+      gap: 20px;
+    }
+
+    .container .social .icon {
+      width: 28px;
+    }
+
     .container .content {
       width: 580px;
       color: #111827;
+
+    }
+
+    .container .content h1, h3, p {
+      margin: 10px 0;
+      font-weight: 400;
     }
 
     .container .avatar {
@@ -32,15 +51,16 @@
     }
 
     @media screen and (max-width: 800px){
-      .content{
+      .container{
         flex-direction: column;
       }
-      .container .card{
-        border-radius: 3rem;
-        text-align: center;
+      .container .social {
+        flex-direction: row;
+        
       }
-      .container .card .content .avatar{
-        border-radius: 2rem;
+      .container .content {
+        width: auto;
+        margin: 0 30px;
       }
     }
     .bouncing-blob {
