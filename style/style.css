@@ -7,6 +7,7 @@
     }
     body{
       background-color: #fff;
+      user-select: none;
     }
     .container{
       display: flex;
@@ -14,80 +15,22 @@
       align-items: center;
       min-height: 100vh;
     }
-    .container .card::before{
-      box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-      filter: blur(10px);
+    
+    .container .content {
+      width: 580px;
+      color: #111827;
     }
-    .container .card::after{
-      background: inherit;
+
+    .container .avatar {
+      width: 300px;
+      height: 300px;
+      border-top-left-radius: 300%;
+      border-top-right-radius: 104%;
+      border-bottom-left-radius: 150%;
+      border-bottom-right-radius: 200%;
+      transition: border-radius 2s ease;
     }
-    .container .card{
-      z-index: 2;
-      background: #ffffff23;
-      width: 700px;
-      margin: 30px;
-      border-radius: 10rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      backdrop-filter: blur(5px);
-      box-shadow: -7px 18px 38px 14px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
-    }
-    .container .card .content{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px;
-      text-align: center;
-    }
-    .card-content{
-      margin: 0 5rem;
-    }
-    .container .card .content .avatar{
-      width: 250px;
-      border-radius: 50%;
-      transition: .3s ease-in;
-    }
-    .container .card .content h2{
-      position: absolute;
-      top: -200px;
-      right: 5px;
-      font-size: 8em;
-      color: #1616231a;
-      pointer-events: none;
-    }
-    .container .card .content h3{
-      font-size: 1.8em;
-      color: #161623;
-      z-index: 1;
-    }
-    .container .card .content p{
-      font-size: 1em;
-      color: #161623;
-      font-weight: 300;
-    }
-    .container .card .content a{
-      text-align: center;
-      position: relative;
-      display: inline-block;
-      margin: .5rem;
-      margin-top: 50px;
-      color: #fff;
-      text-decoration: none;
-      font-weight: 500;
-    }
-    .container .card .content a .icon{
-        width: 50px;
-    }
-    .icon{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .icon a{
-        background-color: transparent;
-        transition: .2s;
-    }
+
     @media screen and (max-width: 800px){
       .content{
         flex-direction: column;
