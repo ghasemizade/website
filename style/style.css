@@ -48,6 +48,11 @@
       border-bottom-left-radius: 150%;
       border-bottom-right-radius: 200%;
       transition: border-radius 2s ease;
+      filter: grayscale(1);
+    }
+
+    .container .avatar:hover {
+      filter: grayscale(0);
     }
 
     @media screen and (max-width: 800px){
