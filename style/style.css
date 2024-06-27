@@ -140,16 +140,6 @@
       }
     }
 
-    .athor {
-      position: absolute;
-      bottom: 0;
-      right: 10px;
-    }
-    .athor a {
-      color: #000;
-      text-decoration: none;
-    }
-
     .tag {
       text-decoration: none;
       color: #111827;
