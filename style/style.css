@@ -138,6 +138,9 @@
         backdrop-filter: blur(90px);
         -webkit-backdrop-filter: blur(90px);
       }
+      .source-code {
+        display: inline-block;
+      }
     }
 
     .tag {
@@ -146,4 +149,5 @@
       background-color: #fff;
       border-radius: 20px;
       padding: 2px 10px;
+      margin: 10px 1px;
     }
