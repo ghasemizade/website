@@ -67,6 +67,10 @@
         width: auto;
         margin: 0 30px;
       }
+      .container .avatar {
+        width: 200px;
+        height: 200px;
+      }
     }
     .bouncing-blob {
       width: 32vw;
@@ -141,6 +145,11 @@
       .source-code {
         display: inline-block;
       }
+      .container .avatar {
+        width: 200px;
+        height: 200px;
+      }
+
     }
 
     .tag {
