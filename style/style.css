@@ -182,3 +182,37 @@
       margin: 10px 1px;
     }
 
+    .p-container .p-card {
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      flex-direction: column;
+      background-color: #8c8ff1;
+      border-radius: 20px;
+      padding: 10px;
+    }
+
+    .p-container .p-card img {
+      width: 350px;
+      /* border-top-left-radius: 15px;
+      border-top-right-radius: 15px; */
+      border-radius: 15px;
+    }
+
+    .p-container .p-card span {
+      padding: 2px 5px;
+      background: #fff;
+      border-radius: 20px;
+    }
+
+    .p-container .p-card span {
+      margin-top: 20px;
+    }
+
+    .p-container .p-card span a {
+      padding: 2px 5px;
+      background: #fff;
+      border-radius: 20px;
+      color: #111827;
+      text-decoration: none;
+    }
