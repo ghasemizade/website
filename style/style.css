@@ -182,12 +182,17 @@
       margin: 10px 1px;
     }
 
+    .projects {
+      gap: 20px;
+    }
+
     .p-container .p-card {
       display: flex;
       justify-content: center;
       align-items: start;
       flex-direction: column;
-      background-color: #8c8ff1;
+      background: rgb(56,237,220);
+background: linear-gradient(0deg, rgba(56,237,220,0.6699054621848739) 0%, rgba(162,129,244,0.6755077030812324) 60%);
       border-radius: 20px;
       padding: 10px;
     }
@@ -216,3 +221,4 @@
       color: #111827;
       text-decoration: none;
     }
+    
