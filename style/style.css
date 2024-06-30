@@ -5,10 +5,31 @@
       box-sizing: border-box;
       font-family: 'Poppins', sans-serif;
     }
+
+    html {
+      scroll-snap-type: y mandatory;
+    }
+
     body{
       background-color: #fff;
       user-select: none;
+      font-family: system-ui, sans-serif;
+      margin: 0;
     }
+
+    html, body, section {
+      block-size: 100%;
+    }
+    
+    section {
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
     .container{
       display: flex;
       justify-content: center;
@@ -160,3 +181,4 @@
       padding: 2px 10px;
       margin: 10px 1px;
     }
+
