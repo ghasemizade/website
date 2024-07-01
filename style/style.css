@@ -198,16 +198,22 @@
       justify-content: center;
       align-items: start;
       flex-direction: column;
-      background: linear-gradient(to top, #283048, #859398);
+      background: #283048;
       border-radius: 20px;
       padding: 10px;
     }
 
-    .p-container .p-card img {
+    .p-container .p-card a:hover figure img{
+      transform: scale(1.3);
+      transition: 0.2s;
+      -webkit-transform: scale(1.3);
+    }
+
+    .p-container .p-card figure img {
       width: 350px;
-      /* border-top-left-radius: 15px;
-      border-top-right-radius: 15px; */
       border-radius: 15px;
+      transform: scale(1);
+      -webkit-transform: scale(1);
     }
 
     .p-container .p-card span {
@@ -227,4 +233,13 @@
       color: #111827;
       text-decoration: none;
     }
-    
+    figure {
+      width: 300px;
+      height: 200px;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      overflow: hidden;
+      border-radius: 15px;
+      margin-bottom: 10px;
+    }
