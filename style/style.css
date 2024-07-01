@@ -203,10 +203,31 @@
       padding: 10px;
     }
 
+    .p-container .p-card a figure span {
+      display: none;
+      position: absolute;
+      left: 125px;
+      top: 60px;
+      z-index: 10;
+      color: #fff;
+      padding: 3px 10px;
+      background-color: #111827;
+      border-radius: 20px;
+    }
+
+    .p-container .p-card a figure img{
+      transition: 0.2s;
+    }
+
+    .p-container .p-card a:hover figure span {
+      display: block;
+    }
+
     .p-container .p-card a:hover figure img{
       transform: scale(1.3);
       transition: 0.2s;
       -webkit-transform: scale(1.3);
+      filter: blur(5px);
     }
 
     .p-container .p-card figure img {
@@ -242,4 +263,5 @@
       overflow: hidden;
       border-radius: 15px;
       margin-bottom: 10px;
+      position: relative;
     }
