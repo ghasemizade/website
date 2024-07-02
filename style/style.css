@@ -265,3 +265,8 @@
       margin-bottom: 10px;
       position: relative;
     }
+    
+    .eatsmarty {
+      display: flex;
+      flex-direction: column;
+    }
