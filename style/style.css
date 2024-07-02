@@ -29,6 +29,11 @@
       align-items: center;
       justify-content: center;
     }
+
+    a {
+      text-decoration: none;
+      color: #111827;
+    }
     
     .container{
       display: flex;
@@ -282,6 +287,10 @@
       padding: 20px;
     }
 
-    .eatsmarty-container ul li {
-      list-style: none;
+    .eatsmarty-container ul {
+      margin-left: 20px;
+    }
+
+    .eatsmarty-container ul li:hover {
+      color: #283048;
     }
