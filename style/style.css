@@ -265,3 +265,27 @@
       margin-bottom: 10px;
       position: relative;
     }
+    
+    .eatsmarty {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .eatsmarty-container {
+      max-width: 780px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      padding: 20px;
+    }
+
+    .eatsmarty-container ul {
+      margin-left: 20px;
+    }
+
+    .eatsmarty-container ul li:hover {
+      color: #283048;
+    }
