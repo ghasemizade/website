@@ -269,4 +269,19 @@
     .eatsmarty {
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .eatsmarty-container {
+      max-width: 780px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      padding: 20px;
+    }
+
+    .eatsmarty-container ul li {
+      list-style: none;
     }
