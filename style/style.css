@@ -294,3 +294,11 @@
     .eatsmarty-container ul li:hover {
       color: #283048;
     }
+
+    .stack-badges .stack-badge span {
+      background-color: #fff;
+      border-radius: 20px;
+      padding: 2px 5px;
+      display: inline-block;
+      margin: 5px;
+    }
