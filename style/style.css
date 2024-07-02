@@ -29,6 +29,11 @@
       align-items: center;
       justify-content: center;
     }
+
+    a {
+      text-decoration: none;
+      color: #111827;
+    }
     
     .container{
       display: flex;
