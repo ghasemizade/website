@@ -271,14 +271,16 @@
       position: relative;
     }
     
-    .eatsmarty {
+    .eatsmarty, .jibres, .ermile {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
     }
     
-    .eatsmarty-container {
+    .eatsmarty-container,
+    .jibres-container,
+    .ermile-container {
       max-width: 780px;
       display: flex;
       flex-direction: column;
@@ -287,11 +289,15 @@
       padding: 20px;
     }
 
-    .eatsmarty-container ul {
+    .eatsmarty-container ul,
+    .jibres-container ul,
+    .ermile-container ul {
       margin-left: 20px;
     }
 
-    .eatsmarty-container ul li:hover {
+    .eatsmarty-container ul li:hover,
+    .jibres-container ul li:hover,
+    .ermile-container ul li:hover {
       color: #283048;
     }
 
