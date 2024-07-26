@@ -4,6 +4,7 @@
       padding: 0;
       box-sizing: border-box;
       font-family: 'Poppins', sans-serif;
+      
     }
 
     html {
@@ -82,6 +83,9 @@
     }
 
     @media screen and (max-width: 800px){
+      *{
+        font-size: small;
+      }
       .container{
         flex-direction: column;
       }
