@@ -40,12 +40,14 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
       min-height: 100vh;
+      gap: 20px;
     }
     
     .container .social {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
       flex-direction: column;
       margin: 0 30px;
@@ -54,6 +56,10 @@
 
     .container .social .icon {
       width: 28px;
+    }
+    .container .content-container {
+      display: flex;
+      
     }
 
     .container .content {
@@ -70,15 +76,12 @@
     .container .avatar {
       width: 300px;
       height: 300px;
-      border-top-left-radius: 300%;
-      border-top-right-radius: 104%;
-      border-bottom-left-radius: 150%;
-      border-bottom-right-radius: 200%;
-      transition: border-radius 2s ease;
+      border-radius: 100%;
+      transition: all 0.5s;
       filter: grayscale(1);
     }
-
     .container .avatar:hover {
+      transform: scale(1.05);
       filter: grayscale(0);
     }
 
@@ -191,8 +194,8 @@
 
     .tag {
       text-decoration: none;
-      color: #111827;
-      background-color: #fff;
+      color: #fff;
+      background-color: #4783c7;
       border-radius: 20px;
       padding: 2px 10px;
       margin: 10px 1px;

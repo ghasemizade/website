@@ -8,7 +8,7 @@ function changeRadius() {
     avatar.style.borderBottomRightRadius = Math.floor(Math.random() * 100) + "%";
     avatar.style.borderBottomLeftRadius = Math.floor(Math.random() * 100) + "%";
 
-    setTimeout(changeRadius, 2000);
+    setTimeout(changeRadius, 500);
 }
 
 
