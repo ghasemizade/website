@@ -59,13 +59,11 @@
     }
     .container .content-container {
       display: flex;
-      
     }
 
     .container .content {
       width: 580px;
       color: #111827;
-
     }
 
     .container .content h1, h3, p {
@@ -99,13 +97,16 @@
       .container .content {
         width: auto;
         margin: 0 30px;
+        
       }
       .container .avatar {
         width: 200px;
         height: 200px;
         margin-top: 50px;
       }
-
+      .container .content-container{
+        flex-direction: column;
+      } 
       .projects {
         display: flex;
         flex-direction: column;
