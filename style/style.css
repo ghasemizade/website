@@ -33,7 +33,7 @@
 
     a {
       text-decoration: none;
-      color: #111827;
+      color: #0369a1;
     }
     
     .container{
@@ -63,10 +63,16 @@
 
     .container .content {
       width: 580px;
-      color: #111827;
+      color: #0369a1;
     }
 
-    .container .content h1, h3, p {
+    .container .content h1 {
+      font-weight: 800;
+    }
+    .container .content h3 {
+      font-weight: 600;
+    }
+    .container .content p {
       margin: 10px 0;
       font-weight: 400;
     }
@@ -301,12 +307,13 @@
     .jibres-container ul,
     .ermile-container ul {
       margin-left: 20px;
+      color: #082f49;
     }
 
     .eatsmarty-container ul li:hover,
     .jibres-container ul li:hover,
     .ermile-container ul li:hover {
-      color: #283048;
+      color: #075985;
     }
 
     .stack-badges .stack-badge span {
