@@ -288,7 +288,7 @@ export default function Home() {
         <section id="skills" className="py-12 scroll-mt-20">
           <h2 className="text-3xl font-bold mb-6">Tech Stack</h2>
           <Tabs defaultValue="languages" className="w-full">
-            <TabsList className="grid grid-cols-4 mb-6">
+            <TabsList className="flex justify-between items-center h-full flex-col mb-6 md:flex-row">
               <TabsTrigger value="languages">Languages & Frameworks</TabsTrigger>
               <TabsTrigger value="styling">Styling & UI</TabsTrigger>
               <TabsTrigger value="testing">Testing & DevOps</TabsTrigger>
