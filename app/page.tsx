@@ -78,7 +78,7 @@ export default function Home() {
               src="/avatar-2025.jpg"
               alt="Hosein Ghasemizade"
               fill
-              className="object-cover grayscale"
+              className="object-cover"
               priority
             />
           </div>
