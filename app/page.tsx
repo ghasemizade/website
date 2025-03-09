@@ -34,7 +34,7 @@ export default function Home() {
             </nav>
             <div className="flex items-center gap-2">
               <ThemeToggle />
-              <Link href="https://github.com/hosein" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com/ghasemizade" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon">
                   <Github className="h-5 w-5" />
                   <span className="sr-only">GitHub</span>
