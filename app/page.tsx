@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Github, Linkedin, Mail, ExternalLink } from "lucide-react"
+import { Send, Github, Linkedin, Mail, ExternalLink } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import ThemeToggle from "@/components/theme-toggle"
@@ -408,6 +408,12 @@ export default function Home() {
             </p>
           </div>
           <div className="flex items-center gap-4">
+          <Link href="https://t.me/HoseinGhasemizade" target="_blank" rel="noopener noreferrer">
+              <Button variant="ghost" size="icon">
+                <Send className="h-5 w-5" />
+                <span className="sr-only">Telegram</span>
+              </Button>
+            </Link>
             <Link href="https://github.com/hosein" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon">
                 <Github className="h-5 w-5" />
