@@ -34,6 +34,9 @@ export default function MobileNav() {
           <Link href="#contact" className="text-lg font-medium hover:text-primary" onClick={() => setOpen(false)}>
             Contact
           </Link>
+          <Link href="https://resume.ghasemizade.com" target="_blank" className="text-lg font-medium hover:text-primary" onClick={() => setOpen(false)}>
+            Resume
+          </Link>
         </nav>
         <div className="flex gap-4 mt-8">
           <Link href="https://github.com/hosein" target="_blank" rel="noopener noreferrer">

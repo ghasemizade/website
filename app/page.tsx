@@ -31,6 +31,9 @@ export default function Home() {
               <Link href="#contact" className="text-sm font-medium hover:text-primary">
                 Contact
               </Link>
+              <Link href="https://resume.ghasemizade.com" target="_blank" className="text-sm font-medium hover:text-primary">
+                Resume
+              </Link>
             </nav>
             <div className="flex items-center gap-2">
               <ThemeToggle />
@@ -127,6 +130,11 @@ export default function Home() {
                   <p className="text-muted-foreground">
                     Performance optimization, responsive design, and user experience
                   </p>
+                </div>
+                <div>
+                  <Button asChild>
+                    <Link href="https://resume.ghasemizade.com" target="_blank">Get in resume</Link>
+                  </Button>
                 </div>
               </CardContent>
             </Card>
