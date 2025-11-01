@@ -416,19 +416,19 @@ export default function Home() {
             </p>
           </div>
           <div className="flex items-center gap-4">
-          <Link href="https://t.me/HoseinGhasemizade" target="_blank" rel="noopener noreferrer">
+          <Link href="https://t.me/HOSGZ" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon">
                 <Send className="h-5 w-5" />
                 <span className="sr-only">Telegram</span>
               </Button>
             </Link>
-            <Link href="https://github.com/hosein" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/ghasemizade" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Button>
             </Link>
-            <Link href="https://linkedin.com/in/hosein" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/hosein-ghasemizade/" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
