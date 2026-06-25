@@ -76,14 +76,17 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20">
-            <Image
-              src="/avatar-2025.jpg"
-              alt="Hosein Ghasemizade"
-              fill
-              className="object-cover"
-              priority
-            />
+          <div className="flex-1 flex justify-center items-center relative">
+            <div className="absolute w-72 h-72 rounded-full blur-3xl bg-blue-500 animate-pulse"></div>
+            <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20">
+              <Image
+                src="/profile_photov3.png"
+                alt="Hosein Ghasemizade"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
           </div>
         </section>
 
@@ -264,10 +267,10 @@ export default function Home() {
                     <CardDescription>Ermile</CardDescription>
                   </div>
                   <Link
-                      href="https://ermile.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-1 text-sm hover:text-primary"
+                    href="https://ermile.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1 text-sm hover:text-primary"
                   >
                     Visit <ExternalLink className="h-3 w-3" />
                   </Link>
@@ -416,7 +419,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex items-center gap-4">
-          <Link href="https://t.me/HOSGZ" target="_blank" rel="noopener noreferrer">
+            <Link href="https://t.me/HOSGZ" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon">
                 <Send className="h-5 w-5" />
                 <span className="sr-only">Telegram</span>

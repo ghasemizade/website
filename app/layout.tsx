@@ -1,5 +1,6 @@
 import type React from "react"
-import "@/app/globals.css"
+// @ts-ignore: CSS module type declarations are not available in this environment
+import "@/styles/globals.css"
 import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import { GoogleTagManager } from '@next/third-parties/google'
@@ -10,7 +11,7 @@ export const metadata = {
   title: "Hosein Ghasemizade | Front-End Developer",
   description:
     "Professional portfolio of Hosein Ghasemizade, a Front-End Developer specializing in React, Next.js, Tailwind CSS, and TypeScript.",
-    generator: 'v0.dev'
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -20,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <GoogleTagManager gtmId="G-TDG3HNFW9Y"/>
+      <GoogleTagManager gtmId="G-TDG3HNFW9Y" />
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           {children}
@@ -29,7 +30,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-
-import './globals.css'
