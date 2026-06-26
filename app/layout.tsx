@@ -4,6 +4,7 @@ import "@/styles/globals.css"
 import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import { GoogleTagManager } from '@next/third-parties/google'
+import MouseMoveEffect from "@/components/mouse-move-effect"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -24,6 +25,7 @@ export default function RootLayout({
       <GoogleTagManager gtmId="G-TDG3HNFW9Y" />
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          <MouseMoveEffect />
           {children}
         </ThemeProvider>
       </body>
