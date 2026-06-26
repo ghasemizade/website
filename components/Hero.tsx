@@ -7,7 +7,7 @@ export default function Hero() {
     return (
         <section className="py-12 md:py-20 flex flex-col-reverse md:flex-row items-center gap-8">
             <div className="flex-1 space-y-4">
-                <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Front-End Developer</h1>
+                <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Frontend Engineer | Full-Stack & Security Enthusiast</h1>
                 <p className="text-xl text-muted-foreground">
                     Building high-performance, scalable, and visually appealing web applications
                 </p>
