@@ -34,13 +34,13 @@ export default function Header() {
                     </nav>
                     <div className="flex items-center gap-2">
                         <ThemeToggle />
-                        <Link href="https://github.com/ghasemizade" target="_blank" rel="noopener noreferrer">
+                        <Link href="/github" target="_blank" rel="noopener noreferrer">
                             <Button variant="ghost" size="icon">
                                 <Github className="h-5 w-5" />
                                 <span className="sr-only">GitHub</span>
                             </Button>
                         </Link>
-                        <Link href="https://linkedin.com/in/hosein" target="_blank" rel="noopener noreferrer">
+                        <Link href="linkedin" target="_blank" rel="noopener noreferrer">
                             <Button variant="ghost" size="icon">
                                 <Linkedin className="h-5 w-5" />
                                 <span className="sr-only">LinkedIn</span>
