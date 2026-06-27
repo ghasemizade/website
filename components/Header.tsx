@@ -3,7 +3,6 @@ import { Send, Github, Linkedin, Mail, ExternalLink } from "lucide-react"
 import Link from "next/link"
 import MobileNav from "./mobile-nav"
 import ThemeToggle from "./theme-toggle"
-
 import React from 'react'
 
 export default function Header() {
